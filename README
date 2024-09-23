@@ -1,0 +1,50 @@
+# Sistema de Gestão de Restaurante (RestauranteDB)
+
+Este projeto SQL implementa um sistema de gestão para restaurantes. Ele gerencia informações de clientes, mesas, pedidos e itens dos pedidos, permitindo realizar operações de inserção, consulta, atualização e exclusão de dados.
+
+## Estrutura do Banco de Dados
+
+### Tabelas:
+- **Clientes**: Armazena os dados pessoais dos clientes (nome, telefone, email).
+- **Mesas**: Registra as mesas disponíveis no restaurante, com seu número e capacidade.
+- **Pedidos**: Mantém o registro dos pedidos feitos pelos clientes, associados às mesas.
+- **Itens_Pedido**: Lista os itens de cada pedido, com detalhes como quantidade e preço.
+
+## Funcionalidades
+
+- **Clientes**: Cadastrar novos clientes e atualizar informações de contato.
+- **Mesas**: Registrar mesas e sua capacidade.
+- **Pedidos**: Fazer novos pedidos para os clientes e consultar os itens dos pedidos.
+- **Itens_Pedido**: Inserir itens nos pedidos e calcular o subtotal de cada item.
+- **Atualizações e Exclusões**: Atualizar dados de clientes e mesas, excluir pedidos.
+
+### Exemplos de Operações
+
+1. **Inserção de Dados**:
+   - Adicionar clientes, mesas e pedidos no sistema.
+2. **Consultas**:
+   - Listar clientes, mesas e pedidos.
+   - Calcular o subtotal de itens de um pedido.
+3. **Atualizações**:
+   - Atualizar o número de telefone de um cliente e a capacidade de uma mesa.
+4. **Exclusões**:
+   - Excluir pedidos.
+
+### Requisitos
+
+- **MySQL** ou outro sistema de gerenciamento de banco de dados relacional compatível.
+- Ferramenta de interface SQL como **MySQL Workbench** ou **DBeaver**.
+
+### Como Executar
+
+1. Clone o repositório ou copie o script SQL.
+2. Execute o script SQL no seu ambiente de banco de dados.
+3. Modifique ou expanda conforme as necessidades do seu restaurante.
+
+### Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+### Autor
+
+Desenvolvido por [Seu Nome].
